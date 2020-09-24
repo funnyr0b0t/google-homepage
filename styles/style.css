@@ -1,0 +1,133 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
+    padding: 23px 30px 0px 25px;
+    display: grid;
+    grid-template-columns: auto auto 1fr auto auto auto auto;
+    grid-column-gap: 15px;
+    justify-items: center;
+}
+
+.about {grid-column: 1/2;}
+.store {grid-column: 2/3;}
+.gmail {grid-column: 5/6;}
+.images {grid-column: 6/7;}
+.apps {
+    grid-column: 7/8;
+    width: 19px;
+    margin: -1px;
+    padding: 0px 5px 0px 5px;
+}
+
+.userpic {
+    margin-top: -8px;
+    background-color: purple;
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
+    color: white;
+    text-align: center;
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
+    line-height: 31px;
+    grid-column: 8/9;
+}
+
+
+input {
+    width: 494px;
+    height: 44px;
+    border: 0.5px solid #d1d1d1;
+    border-radius: 30px;
+    opacity: 0.87;
+    padding: 0px 43px 0px 43px;
+    font-size: 16px;
+    background: url(images/search.png), url(images/voice.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 24px, 30px;
+    background-position: 13px 10px, 537px 7px;
+    
+}
+
+input:hover {
+    box-shadow: 0 1px 5px #c6c6c6;
+    border: 0.5px solid #fff;
+}
+
+input:focus {
+    outline: none;
+}
+
+form {
+    margin-top: 109px;
+    height: auto;
+    display: grid;
+    grid-template-rows: auto auto;
+    place-items: center;
+    grid-row-gap: 24px;
+}
+
+button {
+    font-size: 14px;
+    color: #5f6368;
+    border: 1px solid #f2f2f2;
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 9px 17px 9px 17px;
+    margin: 4px 3px 0px 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #000;
+    border: 1px solid #c6c6c6;
+    background: linear-gradient(0deg, #f5f5f5 #f1f1f1); 
+    box-shadow: 0 2px 5px #c6c6c6;
+}
+
+footer {
+    opacity: 0.6;
+    background-color: #eee;
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.location {
+    font-size: 15px;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 11px 0px 12px 30px;
+}
+
+.terms {
+    font-size: 14px;
+    padding: 12px 30px 12px 30px;
+    display: grid;
+    grid-template-columns: auto auto auto 1fr auto auto auto;
+    grid-column-gap: 27px;
+}
+
+.ft1 {grid-column: 1/2;}
+.ft2 {grid-column: 2/3;}
+.ft3 {grid-column: 3/4;}
+.ft4 {grid-column: 5/6;}
+.ft5 {grid-column: 6/7;}
+.ft6 {grid-column: 7/8;}
